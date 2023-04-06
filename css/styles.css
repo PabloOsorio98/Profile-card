@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-box{
+    background: #396EB0;
+    text-align: center;
+    padding: 0px 50px;
+    color: #fff;
+    position: relative;
+    border-radius: 20px;
+}
+
+.bachelor-description{
+    margin-top: 0.1rem;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.profile-pic{
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 6px;
+    margin-top: 40px;
+}
+
+.profile-box button{
+    background: #fff;
+    color: #396EB0;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px rgb(46, 76, 109);
+    padding: 15px 100px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.3s;
+    
+}
+
+.profile-box button:hover{
+    background: #2E4C6D;
+    color: #fff;
+}
+
+.profile-box h3{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.social-media{
+    padding: 1rem 0;
+
+}
+
+.social-icon{
+    padding: 0 0.5rem;
+    color: #fff;
+}
+
+.social-icon:hover{
+    transition: 0.4s;
+    color: #2E4C6D;
+}
+
