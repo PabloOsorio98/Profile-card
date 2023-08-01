@@ -29,6 +29,17 @@
     margin-top: 0.1rem;
 }
 
+.enterprise-link{
+    text-decoration: underline;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.enterprise-link:hover{
+    color: #212527;
+    transition: 0.2s;
+}
+
 .link{
     text-decoration: none;
 }
